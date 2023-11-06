@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.851);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.login{
+
+    height: 40%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.424);
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+}
+
+.login h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(175, 175, 175, 0.825);
+}
+
+.login h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+}
+
+.login form{
+    margin-top: 30px;
+}
+
+.login form .input-box{
+    height: 52px;
+    margin: 18px 0;
+}
+
+form .input-box input{
+    height: 100%;
+    width: 87%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus, .input-box input:valid{
+    border-color: rgba(0, 0, 0, 0.424);
+}
+
+form h3{
+    color: (175, 175, 175, 0.825);
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+.input-box.button input{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    margin-left: 6%;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: rgba(0, 0, 0, 0.424);
+    cursor: pointer;
+}
+
+.input-box.button input:hover{
+    background: rgba(141, 141, 141, 0.03);
+}
+
+form .text h3{
+    color: rgba(175, 175, 175, 0.825);
+    width: 100%;
+    text-align: center;
+}
+
+form .text h3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+form .text h3 a:hover{
+    text-decoration: underline;
+}
