@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.851);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.ad {
+    position: absolute;
+    margin-right: 20%;
+    height: 50%;
+    width: 33%;
+    display: grid;
+    background: rgba(255, 255, 255, 0.527);
+}
+
+.image {
+    margin-top: -23%;
+    background-color: rgb(97, 97, 97);
+}
+
+.ad .text {
+    height: 33%;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+}
+
+.description {
+    display: grid;
+    background: rgba(255, 255, 255, 0.527);
+    height: 50%;
+    width: 20%;
+    margin-left: 37%;
+}
+
+.data {
+    border-bottom: 2px solid black;
+    margin-bottom: 40%;
+}
+
+.notes {
+    margin-top: -40%;
+}
+
+.info {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+}
