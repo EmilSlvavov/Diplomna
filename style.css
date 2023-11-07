@@ -53,11 +53,15 @@ body{
     background: rgba(141, 141, 141, 0.03);
 }
 
+.list-container {
+    margin-top: 7.5%;
+    width: 100%;
+}
+
 .link {
-    margin-top: 200px;
-    margin-left: 25%;
+    margin: auto;
+    display: block;
     width: 50%;
-    height: 27%;
     text-decoration: none;
     color: black;
 }
