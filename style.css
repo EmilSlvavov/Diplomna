@@ -4,7 +4,7 @@ html {
 }
 
 body{
-    height: 200%;
+    height: 100%;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.851);
     font-family: 'Poppins', sans-serif;
@@ -51,4 +51,29 @@ body{
 
 .main button:hover{
     background: rgba(141, 141, 141, 0.03);
+}
+
+.link {
+    margin-top: 200px;
+    margin-left: 25%;
+    width: 50%;
+    height: 27%;
+    text-decoration: none;
+    color: black;
+}
+
+.ad {
+    display: flex;
+    background: rgba(255, 255, 255, 0.527);
+}
+
+.image {
+    width: 33%;
+    background-color: rgb(97, 97, 97);
+}
+
+.ad .info{
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
 }
